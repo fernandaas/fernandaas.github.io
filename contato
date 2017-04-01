@@ -81,7 +81,7 @@ color: White;
  
   
 	<header>MEU SITE</header>
-	<header><center>Sobre Mim | Habilidades | Blog | <a href= "https://fernandaas.github.io/contato" Contato</a> | Portfólio</center></header>
+	<header><center>Sobre Mim | Habilidades | Blog | <a href= "https://fernandaas.github.io/contato">Contato</a> | Portfólio</center></header>
 	<nav><a href="https://www.facebook.com/profile.php?id=100000606998338">Facebook| </a> <a href="https://www.instagram.com/fedeassis/?hl=pt-br">Instagram</a></nav>
 	<article>
 	027
