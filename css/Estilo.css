@@ -1,4 +1,5 @@
-body {
+
+	body {
     background-color: rgb(255,0,255);
 }
 h1 {
@@ -9,14 +10,7 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
-</style>
-</head>
-<body>
-  
-  <html>
-<head>
-<style>
-  
+
 ul {
 	text-align: center;
 }
@@ -71,4 +65,3 @@ color: White;
  background-color: Black;
  }
   
-</style>
