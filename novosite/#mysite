@@ -275,31 +275,6 @@
    </div>
    </div>
    </div>
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>REDES SOCIAIS</h2>
-  <h4>Para saber um pouco mais sobre meu dia a dia </h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-	  <a href="https://www.facebook.com/thamiris.moreirasilva.5"><img src="http://www.logiciel.info/wp-content/uploads/2015/03/Facebook-Logo.png" width="100" height="100"></a>
-      <h4>FACEBOOK</h4>
-      <p>Thamiris Moreira Silva</p>
-    </div>
-    <div class="col-sm-4">
-      <a href="https://www.instagram.com/thamiris__xx/?hl=pt-br"><img src="http://pngimg.com/uploads/instagram/instagram_PNG10.png" width="100" height="100"></a>
-      <h4>INSTAGRAM</h4>
-      <p>Thamiris__xx</p>
-    </div>
-    <div class="col-sm-4">
-      <a href="#" data-toggle="tooltip" title="Infelizmente não é possível linkar com o meu perfil, mas se escrever meu nome no aplicativo aparece, não deixe de me seguir lá!"><img src="https://cdn.worldvectorlogo.com/logos/snapchat.svg" width="100" height="100"></a>
-      <h4>SNAPCHAT</h4>
-      <p>Thamiris__xx</p>
-    </div>
-  </div>
-  <br><br>
- 
-</div>
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
