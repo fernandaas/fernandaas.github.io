@@ -1,50 +1,56 @@
-var op = '';
-var res = 0;
-var num1 = -1;
-var num2 = 0;
-var visor = 0;    
-var res = 0;
+<script>
+var valor1 ="";
+		var valor2 = "";
+		var operacao = "";
+		
+		function numeroX(v) {
+			if (operacao == "") {
+				valor1 = v;
+			}
+			else{ 
+				valor2 = v;
+			}
+			
+			document.getElementById('calculo').value = valor1 + " "+operacao+" "+valor2;       
+		}
+		
+		function op(u){
+			operacao = u;
+			document.getElementById('calculo').value = valor1 + " "+operacao+" "+valor2;
+		}
+			
+		function calcular(){
+			
+			var resultado;
+			
+			if (operacao == '+'){
+				resultado = valor1 + valor2;
+			}
+			if (operacao == "-"){
+				resultado = valor1 - valor2;
+			}
+			if (operacao == "*"){
+				resultado = valor1 * valor2;
+			}
+			if (operacao == "/"){
+				resultado = valor1 / valor2;
+			}
+		document.getElementById('calculo').value = resultado;
+		}
+		
+		function limpar(){
+		
+		if (calculo != ""){
+			document.getElementById('calculo').value = "";
+			valor1 = "";
+			valor2 = "";
+			operacao = "";
+			}
+		}
+	</script>
+	<style>
 
-function clicarNum(num){
-	visor = document.getElementById('visor').value = document.getElementById('visor').value + num;
-}
-  
-function clicarOp(operacao){
-  op = operacao;
-  if(num1 != res){
-	  num1 = parseInt(visor);
-  }
-	Limpa();
-}
-  
-function CalcResultado(){
-  num2 = parseInt(visor);
-  
-  if (document.getElementById('visor').value === ''){
-  } else {
-    
-	if (op == "+") {
-    res = num1 + num2;
-  } else {
-    
-  if (op == "-") {
-  res = num1 - num2;
-  } else {
-    
-  if (op == "*") {
-  res = num1 * num2;
-  } else {
-    
-  res = num1 / num2;
-  
-  }}}}
-  
-  Limpa()
-  document.getElementById('visor').value = res;
-  num1 = res;
-  num2 = '';
-}
-
-function Limpa() {
-	document.getElementById('visor').value = '';
-}
+	div.box{
+			height = 10px;
+			width = 10px;
+</style>
