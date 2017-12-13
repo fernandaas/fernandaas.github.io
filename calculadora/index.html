@@ -7,29 +7,42 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script src="index.js"></script>
-    <center>
-    <div class="calc">
-      
-      <input type="text" class="output" id="visor" name="visor" disabled/>
-      
-      <input type="button" class="btn" value="7" id="7" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="8" id="8" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="9" id="9" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="/" style="background-color: #a5c7ff;" id="/" onclick="clicarOp(value)"/>
-      <input type="button" class="btn" value="4" id="4" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="5" id="5" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="6" id="6" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="*" style="background-color: #a5c7ff;" id="*" onclick="clicarOp(value)"/>
-      <input type="button" class="btn" value="1" id="1" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="2" id="2" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="3" id="3" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="+" style="background-color: #a5c7ff;" id="+" onclick="clicarOp(value)"/>
-      <input type="button" class="btn" value="CE" style="background-color: #ff9696;" id="CE" onclick="Limpa()"/>
-      <input type="button" class="btn" value="0" id="0" onclick="clicarNum(value)"/>
-      <input type="button" class="btn" value="=" style="background-color: #ffdba4;" id="=" onclick="CalcResultado()"/>
-      <input type="button" class="btn" value="-" style="background-color: #a5c7ff;" id="-" onclick="clicarOp(value)"/>
-    </div>
-    </center>
-  </body>
-</html>
+	
+	</head>
+	<body>
+	<div class="jumbotron text-center">
+	<h1>Calculadora</h1>
+	<form>
+		<input type="text" name="cauculo" id="calculo">
+	</form>
+	<div class="container">
+	<div class="row">
+		<button type="button" class="btn" onclick="numeroX(1)">1</button>
+		<button type="button" class="btn" onclick="numeroX(2)">2</button>
+		<button type="button" class="btn" onclick="numeroX(3)">3</button>
+		<button type="button" class="btn btn-warning" onclick="op('+')">+</button>
+	</div>
+	<div class="container">
+	<div class="row">
+		<button type="button" class="btn" onclick="numeroX(4)">4</button>
+		<button type="button" class="btn" onclick="numeroX(5)">5</button>
+		<button type="button" class="btn" onclick="numeroX(6)">6</button>
+		<button type="button" class="btn btn-warning"onclick="op('-')">-</button>
+	</div>
+	<div class="container">
+	<div class="row">
+		<button type="button" class="btn" onclick="numeroX(7)">7</button>
+		<button type="button" class="btn" onclick="numeroX(8)">8</button>
+		<button type="button" class="btn" onclick="numeroX(9)">9</button>
+		<button type="button" class="btn btn-warning" onclick="op('/')">/</button>
+	</div>
+	<div class="container">
+	<div class="row"> 
+		<button type="button" class="btn btn-warning" onclick="limpar()">C</button>
+		<button type="button" class="btn" onclick="numeroX(0)">0</button>
+		<button type="button" class="btn btn-warning" onclick="calcular()">=</button>
+		<button type="button" class="btn btn-warning" onclick="op('*')">*</button>
+	</div>
+	</div>
+    </body>
+    </html>
